@@ -39,7 +39,7 @@ header div{}
 .logo h1{
     font-size: 26px;
     font-weight: 300;
-    color: #ffffff;
+    color: rgb(255,219,1);
 }
 nav{
     width: 80%;
@@ -76,9 +76,28 @@ nav a:hover{
     font-weight: 700;
     color: white;
 }
+.blog{
+    padding: 80px 0px;
+    /* margin-top: 55px; */
+    background: url(../images/blog.webp);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+}
+.blog h1{
+    color: rgb(255,219,1);
+    font-size: 80px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+.blog h2{
+    color: rgb(255,219,1);
+    font-size: 20px;
+    font-weight: 700;
+}
 .banner{
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     text-transform: uppercase;
     border-style: solid;
     border-radius: 60px;
@@ -89,7 +108,7 @@ nav a:hover{
     background: url(../images/smiley.png);
     margin-right: auto;
     background-size: contain;
-    background-position-x: 95%;
+    background-position-x: 20px;
     background-repeat: no-repeat;
     border-bottom-right-radius: 0px;
 }
