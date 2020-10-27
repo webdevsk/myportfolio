@@ -5,13 +5,14 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	background: #2b2b2b;
 }
 img{
 	max-width: 100%
 }
 a{
 	text-decoration: none;
-	color: #000000ab
+	color: rgb(255 255 255 / 1);
 }
 .flex{
 	display: flex;
@@ -19,13 +20,13 @@ a{
 	flex-wrap: wrap;
 }
 header{
-    align-items: center;
+    align-items: flex-end;
     margin: auto;
-    margin-top: 20px;
+    padding-top: 20px;
     width: 1000px;
     justify-content: space-between;
     border-bottom-style: inset;
-    color: #000000ab;
+    border-color: rgb(255,219,1);
 }
 section{
     width: 1000px;
@@ -33,12 +34,12 @@ section{
 }
 header div{}
 .logo{
-    width: 20%;
     padding: 20px 20px;
 }
 .logo h1{
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 300;
+    color: #ffffff;
 }
 nav{
     width: 80%;
@@ -50,32 +51,47 @@ nav ul{
 nav li{
     padding: 0px 5px;
 }
-nav li:hover{}
+nav li:hover{
+    background: rgb(255,219,1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 nav a{
     text-decoration: none;
-    color: #000000ab;
+    color: #ffffff;
     padding: 10px 15px;
-    
     display: inline-block;
+    font-weight: 600;
 }
 nav a:hover{
-    background: #0000000d;
-    border-radius: 5px;
-    color: black;
-    font-weight: 400;
+    font-weight: 6;
+    font-weight: 600;
     transition-duration: 0.3s;
+    color: black;
 }
 .title{
     display: inline-block;
-    color: #0000008a;
+    color: #696969;
     font-size: 12px;
     font-weight: 700;
+    color: white;
 }
 .banner{
     text-align: center;
     margin-top: 80px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 60px;
+    padding: 10px 0px;
+    border-color: rgb(255,219,1);
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    background: url(../images/smiley.png);
+    margin-right: auto;
+    background-size: contain;
+    background-position-x: 95%;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 0px;
 }
 .banner .title{
     padding: 10px;
@@ -83,12 +99,13 @@ nav a:hover{
 .banner h1{
     font-size: 35px;
     padding: 10px 0px;
-    color: #000000ab;
+    color: #ffffff;
 }
 .portfolio{
-    background: #f1f1f1ad;
-    border-radius: 10px;
+    background: rgb(255 219 1);
     padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .box{
     justify-content: center;
@@ -102,31 +119,34 @@ nav a:hover{
 .tab a{
     display: block;
     padding: 15px 15px;
-    background: #0000000d;
+    background: #ffffff;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #8080808f;
-    
+    box-shadow: 4px 4px 2px #00000087;
 }
 .tab a:hover{
-    box-shadow: inset 2px 2px 2px #8080808f;
     transition-duration: 0.3s;
+    box-shadow: none;
 }
 .tab img{border-radius: 10px;display: flex;height: 160px;object-fit: cover;}
-.tab a:hover img{
-}
-.tab span{padding-top: 10px;}
+.tab a:hover img{}
+.tab span{padding-top: 10px;color: #565656;}
 .tab a:hover span{
-    color: #525252;
+    color: rgb(0 0 0 / 1);
 }
 .class02{}
 .class03{}
 .minimo{}
+.basicgrid{}
+.pofo{}
+.saasland{}
 footer{
     width: 1000px;
     margin: auto;
     padding: 40px 20px;
-    background: #f1f1f1ad;
+    border-color: #ffdb01;
     margin-top: 60px;
+    border-style: outset;
+    border-bottom: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -137,14 +157,15 @@ footer ul{
 footer li{
     padding: 5px 0px;
 }
-footer li:hover{}
+footer li:hover{
+}
 footer a{
     font-size: 14px;
     font-weight: 500;
     margin: 10px 0px;
 }
 footer a:hover{
-    color: black;
+    color: #ffdb01;
 }
 }
 footer a:hover{}
@@ -158,19 +179,18 @@ footer a:hover{}
 .contact li{
     font-size: 14px;
     font-weight: 500;
+    color: rgb(255 255 255 / 1);
     margin: 0px 15px;
     margin-left: 5px;
 }
 .contact li a{}
 .contact li a:hover{
-    color: blue;
+    color: rgb(255,219,1);
 }
 .contact i{
 }
 .contact i:hover{}
-
-
-
+.back{}
 
 
 
