@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	max-width: 100%
+}
+a{
+	text-decoration: none;
+	color: #000000ab
+}
+.flex{
+	display: flex;
+	flex: 0 0 auto;
+	flex-wrap: wrap;
+}
+header{
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    justify-content: space-between;
+    border-bottom-style: inset;
+    color: #000000ab;
+}
+section{
+    width: 1000px;
+    margin: auto;
+}
+header div{}
+.logo{
+    width: 20%;
+    padding: 20px 20px;
+}
+.logo h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+    list-style: none;
+}
+nav li{
+    padding: 0px 5px;
+}
+nav li:hover{}
+nav a{
+    text-decoration: none;
+    color: #000000ab;
+    padding: 10px 15px;
+    
+    display: inline-block;
+}
+nav a:hover{
+    background: #0000000d;
+    border-radius: 5px;
+    color: black;
+    font-weight: 400;
+    transition-duration: 0.3s;
+}
+.title{
+    display: inline-block;
+    color: #0000008a;
+    font-size: 12px;
+    font-weight: 700;
+}
+.banner{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.banner .title{
+    padding: 10px;
+}
+.banner h1{
+    font-size: 35px;
+    padding: 10px 0px;
+    color: #000000ab;
+}
+.portfolio{
+    background: #f1f1f1ad;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box{
+    justify-content: center;
+}
+.tab{
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+}
+.tab:hover{}
+.tab a{
+    display: block;
+    padding: 15px 15px;
+    background: #0000000d;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #8080808f;
+    
+}
+.tab a:hover{
+    box-shadow: inset 2px 2px 2px #8080808f;
+    transition-duration: 0.3s;
+}
+.tab img{border-radius: 10px;display: flex;height: 160px;object-fit: cover;}
+.tab a:hover img{
+}
+.tab span{padding-top: 10px;}
+.tab a:hover span{
+    color: #525252;
+}
+.class02{}
+.class03{}
+.minimo{}
+footer{
+    width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    background: #f1f1f1ad;
+    margin-top: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer ul{
+    width: 50%;
+    list-style: none;
+}
+footer li{
+    padding: 5px 0px;
+}
+footer li:hover{}
+footer a{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+footer a:hover{
+    color: black;
+}
+}
+footer a:hover{}
+.terms{}
+.terms a{}
+.terms a h3{}
+.contact{
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.contact li{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 15px;
+    margin-left: 5px;
+}
+.contact li a{}
+.contact li a:hover{
+    color: blue;
+}
+.contact i{
+}
+.contact i:hover{}
+
+
+
+
+
+
+
+
+
+
