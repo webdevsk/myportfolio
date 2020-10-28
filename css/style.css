@@ -138,13 +138,14 @@ nav a:hover{
 .tab a{
     display: block;
     padding: 15px 15px;
+    transition-duration: 0.5s;
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 4px 4px 2px #00000087;
+    /* box-shadow: 4px 4px 2px #00000087; */
 }
 .tab a:hover{
-    transition-duration: 0.3s;
-    box-shadow: none;
+    /* transition-duration: 0.3s; */
+    box-shadow: 10px 10px 10px 0px #0000008c;
 }
 .tab img{border-radius: 10px;display: flex;height: 160px;object-fit: cover;}
 .tab a:hover img{}
