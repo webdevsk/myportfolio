@@ -1,23 +1,23 @@
 *{
-	padding: 0;
-	margin:0;
-	box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
 }
 body{
-	font-family: 'Montserrat', sans-serif;
-	background: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    background: #2b2b2b;
 }
 img{
-	max-width: 100%
+    max-width: 100%
 }
 a{
-	text-decoration: none;
-	color: rgb(255 255 255 / 1);
+    text-decoration: none;
+    color: rgb(255 255 255 / 1);
 }
 .flex{
-	display: flex;
-	flex: 0 0 auto;
-	flex-wrap: wrap;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
 }
 header{
     align-items: flex-end;
@@ -38,7 +38,7 @@ header div{}
 }
 .logo h1{
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 600;
     color: rgb(255,219,1);
 }
 nav{
@@ -78,7 +78,6 @@ nav a:hover{
 }
 .blog{
     padding: 80px 0px;
-    /* margin-top: 55px; */
     background: url(../images/blog.webp);
     background-repeat: no-repeat;
     background-size: 400px;
@@ -88,16 +87,15 @@ nav a:hover{
     color: rgb(255,219,1);
     font-size: 80px;
     font-weight: 800;
-    padding: 10px 0px;
 }
 .blog h2{
     color: rgb(255,219,1);
     font-size: 20px;
     font-weight: 700;
+    margin: 10px 5px;
 }
 .banner{
     text-align: center;
-    /* margin-top: 80px; */
     text-transform: uppercase;
     border-style: solid;
     border-radius: 60px;
@@ -105,7 +103,6 @@ nav a:hover{
     border-color: rgb(255,219,1);
     border-bottom: none;
     border-bottom-left-radius: 0px;
-    background: url(../images/smiley.png);
     margin-right: auto;
     background-size: contain;
     background-position-x: 20px;
@@ -141,10 +138,8 @@ nav a:hover{
     transition-duration: 0.5s;
     background: #ffffff;
     border-radius: 10px;
-    /* box-shadow: 4px 4px 2px #00000087; */
 }
 .tab a:hover{
-    /* transition-duration: 0.3s; */
     box-shadow: 10px 10px 10px 0px #0000008c;
 }
 .tab img{border-radius: 10px;display: flex;height: 160px;object-fit: cover;}
@@ -164,11 +159,10 @@ footer{
     margin: auto;
     padding: 40px 20px;
     border-color: #ffdb01;
-    margin-top: 60px;
     border-style: outset;
-    border-bottom: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 footer ul{
     width: 50%;
